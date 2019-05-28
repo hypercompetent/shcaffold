@@ -7,7 +7,9 @@ function(request) {
         
         # Sidebar with a slider input for number of bins 
         demo_ui("mod_demo"),
-        demo_ui("mod_demo2")
+        demo_ui("mod_demo2"),
+        img(src = "Cheshire_Cat_Tenniel.jpg",
+            width = 100)
         
     )
 }
